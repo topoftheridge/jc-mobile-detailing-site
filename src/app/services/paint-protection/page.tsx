@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Phone } from "lucide-react";
 
+// [[PAINT_PROTECTION_PAGE]]
+
 export const metadata: Metadata = {
-  title: "Paint Enhancement & Protection | Car Candy Auto Detailing",
-  description: "Paint enhancement and protection services in Delaware County, PA. Full wax, compound buff & wax, engine detail, and floormat replacement.",
+  title: "Paint Enhancement & Protection | [[BUSINESS_NAME]]",
+  description: "Paint correction, wax, compound buff, engine detail and more in [[CITY]], [[STATE]]. [[BUSINESS_NAME]] — add-on protection services.",
 };
 
 export default function PaintProtectionPage() {
@@ -16,25 +18,33 @@ export default function PaintProtectionPage() {
       <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
           <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4">Paint Enhancement &amp; Protection</h1>
-          <p className="text-primary font-bold text-xl drop-shadow-[0_0_14px_rgba(236,72,153,0.7)]">From $30</p>
+          <p className="text-primary font-bold text-xl">From [[PAINT_PRICE]]</p>
           <p className="text-gray-400 mt-2">Add these to any detail or book standalone.</p>
         </div>
 
         <p className="text-gray-300 text-lg leading-relaxed mb-10">
-          Take your detail to the next level with our enhancement and protection add-ons. From a full wax seal to compound buffing and engine bay cleaning — we&apos;ve got you covered.
+          [[PAINT_DESCRIPTION]]
+          {/* e.g. "Take your detail to the next level with our enhancement and protection add-ons..." */}
         </p>
 
         <h2 className="text-2xl font-bold text-white mb-6">Available Services</h2>
+        {/*
+          [[PAINT_ADDONS]] — Replace with actual services and prices.
+          Format: { name: "Service Name", price: "$XX", desc: "Short description." }
+        */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
           {[
-            { name: "Full Wax", price: "$35" },
-            { name: "Full Compound Buff & Wax", price: "$80" },
-            { name: "Engine Detail", price: "$60–$100" },
-            { name: "Floormat Replacement", price: "$30" },
+            { name: "[[PAINT_ADDON_1_NAME]]", price: "[[PAINT_ADDON_1_PRICE]]", desc: "[[PAINT_ADDON_1_DESC]]" },
+            { name: "[[PAINT_ADDON_2_NAME]]", price: "[[PAINT_ADDON_2_PRICE]]", desc: "[[PAINT_ADDON_2_DESC]]" },
+            { name: "[[PAINT_ADDON_3_NAME]]", price: "[[PAINT_ADDON_3_PRICE]]", desc: "[[PAINT_ADDON_3_DESC]]" },
+            { name: "[[PAINT_ADDON_4_NAME]]", price: "[[PAINT_ADDON_4_PRICE]]", desc: "[[PAINT_ADDON_4_DESC]]" },
           ].map((addon) => (
-            <div key={addon.name} className="flex items-center justify-between p-5 rounded-lg bg-dark-lighter border border-white/5">
-              <span className="text-white font-medium text-lg">{addon.name}</span>
-              <span className="text-primary font-bold text-lg">{addon.price}</span>
+            <div key={addon.name} className="flex flex-col justify-between p-5 rounded-lg bg-dark-lighter border border-white/5">
+              <div className="flex items-center justify-between mb-2">
+                <span className="text-white font-medium text-lg">{addon.name}</span>
+                <span className="text-primary font-bold text-lg">{addon.price}</span>
+              </div>
+              <p className="text-gray-500 text-sm">{addon.desc}</p>
             </div>
           ))}
         </div>
@@ -43,12 +53,12 @@ export default function PaintProtectionPage() {
           <Link href="/get-quote" className="inline-flex items-center justify-center bg-primary text-white font-bold px-8 py-4 rounded-lg hover:bg-primary-dark transition text-lg">
             Get Your Free Quote
           </Link>
-          <a href="tel:+16107260151" className="inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur text-white font-bold px-8 py-4 rounded-lg hover:bg-white/20 transition border border-white/20 text-lg">
-            <Phone className="w-5 h-5" /> Call (610) 726-0151
+          <a href="tel:[[PHONE_LINK]]" className="inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur text-white font-bold px-8 py-4 rounded-lg hover:bg-white/20 transition border border-white/20 text-lg">
+            <Phone className="w-5 h-5" /> Call [[PHONE_DISPLAY]]
           </a>
         </div>
 
-                {/* Other Services */}
+        {/* Other Services */}
         <div className="mt-20 pt-12 border-t border-white/10">
           <h3 className="text-xl font-bold text-white mb-6 text-center">Explore Our Other Services</h3>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-10">

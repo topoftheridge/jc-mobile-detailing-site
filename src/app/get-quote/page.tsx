@@ -89,8 +89,8 @@ export default function GetQuotePage() {
               Thanks for reaching out. A member of our team will contact you shortly with your personalized quote.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a href="tel:+16107260151" className="inline-flex items-center justify-center bg-primary text-white font-bold px-6 py-3 rounded-lg hover:bg-primary-dark transition">
-                Call (610) 726-0151
+              <a href="tel:[[PHONE_LINK]]" className="inline-flex items-center justify-center bg-primary text-white font-bold px-6 py-3 rounded-lg hover:bg-primary-dark transition">
+                Call [[PHONE_DISPLAY]]
               </a>
               <Link href="/" className="inline-flex items-center justify-center bg-white/10 text-white font-bold px-6 py-3 rounded-lg hover:bg-white/20 transition border border-white/20">
                 Back to Home
@@ -245,7 +245,7 @@ export default function GetQuotePage() {
                       type="text"
                       value={zip}
                       onChange={(e) => setZip(e.target.value.replace(/\D/g, "").slice(0, 5))}
-                      placeholder="19014"
+                      placeholder="[[ZIP]]"
                       className="w-full px-4 py-3 rounded-lg border border-white/10 bg-dark-lighter text-white outline-none text-sm focus:ring-2 focus:ring-primary/40 focus:border-primary placeholder-gray-600"
                     />
                   </div>
@@ -371,12 +371,12 @@ function Header() {
       <div className="max-w-2xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-3">
           <Link href="/">
-            <Image src="/logoheader.png" alt="Car Candy" width={140} height={80} className="h-10 w-auto" />
+            <Image src="/logoheader.png" alt="[[BUSINESS_NAME]]" width={140} height={80} className="h-10 w-auto" />
           </Link>
-          <span className="hidden sm:block text-gray-500 text-xs border-l border-white/10 pl-3">Auto Detailing in Delaware County, PA</span>
+          <span className="hidden sm:block text-gray-500 text-xs border-l border-white/10 pl-3">Auto Detailing in [[CITY]], [[STATE]]</span>
         </div>
-        <a href="tel:+16107260151" className="text-gray-400 hover:text-primary transition text-sm hidden sm:block">
-          (610) 726-0151
+        <a href="tel:[[PHONE_LINK]]" className="text-gray-400 hover:text-primary transition text-sm hidden sm:block">
+          [[PHONE_DISPLAY]]
         </a>
       </div>
     </div>

@@ -6,19 +6,20 @@ import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
+// [[SEO_META]] — Fill in the business name, city, state, and primary services.
 export const metadata: Metadata = {
   title: {
-    default: "Car Candy Auto Detailing | Professional Auto Detailing in Aston, PA",
-    template: "%s | Car Candy Auto Detailing",
+    default: "[[BUSINESS_NAME]] | Professional Auto Detailing in [[CITY]], [[STATE]]",
+    template: "%s | [[BUSINESS_NAME]]",
   },
   description:
-    "Professional auto detailing services in Aston, PA and Delaware County. Interior & exterior detailing, waxing, paint correction. Call (610) 726-0151.",
+    "Professional auto detailing in [[CITY]], [[STATE]]. Interior & exterior detailing, paint correction, waxing, and more. Call [[PHONE_DISPLAY]].",
   keywords: [
-    "auto detailing Aston PA",
-    "car detailing Delaware County",
-    "interior detailing",
-    "exterior detailing",
-    "Car Candy Auto Detailing",
+    "auto detailing [[CITY]] [[STATE]]",
+    "car detailing [[CITY]]",
+    "interior detailing [[CITY]]",
+    "exterior detailing [[CITY]]",
+    "[[BUSINESS_NAME]]",
   ],
   icons: {
     icon: [

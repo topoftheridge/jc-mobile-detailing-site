@@ -19,12 +19,12 @@
 }
 
 @theme {
-  --color-primary: #e8a020;
-  --color-primary-light: #f0b840;
-  --color-primary-dark: #c07d10;
-  --color-accent: #e8a020;
-  --color-accent-light: #f0b840;
-  --color-accent-dark: #c07d10;
+  --color-primary: #1A3FC7;
+  --color-primary-light: #3B7DFF;
+  --color-primary-dark: #0A1A4D;
+  --color-accent: #1A3FC7;
+  --color-accent-light: #3B7DFF;
+  --color-accent-dark: #0A1A4D;
   --color-dark: #0a0a0a;
   --color-dark-light: #111111;
   --color-dark-lighter: #1a1a1a;

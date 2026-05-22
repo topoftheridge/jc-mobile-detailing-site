@@ -6,20 +6,23 @@ import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
-// [[SEO_META]] — Fill in the business name, city, state, and primary services.
 export const metadata: Metadata = {
   title: {
-    default: "[[BUSINESS_NAME]] | Professional Auto Detailing in [[CITY]], [[STATE]]",
-    template: "%s | [[BUSINESS_NAME]]",
+    default: "JC Mobile Detailing | Mobile Car Detailing in Cincinnati, OH",
+    template: "%s | JC Mobile Detailing",
   },
   description:
-    "Professional auto detailing in [[CITY]], [[STATE]]. Interior & exterior detailing, paint correction, waxing, and more. Call [[PHONE_DISPLAY]].",
+    "Top-rated mobile auto detailing in Cincinnati, OH. Interior & exterior detailing, ceramic coating, paint correction, clay & seal — we come to you. 87 five-star reviews. Call today!",
   keywords: [
-    "auto detailing [[CITY]] [[STATE]]",
-    "car detailing [[CITY]]",
-    "interior detailing [[CITY]]",
-    "exterior detailing [[CITY]]",
-    "[[BUSINESS_NAME]]",
+    "mobile detailing Cincinnati OH",
+    "car detailing Cincinnati",
+    "auto detailing Cincinnati Ohio",
+    "JC Mobile Detailing",
+    "interior detailing Cincinnati",
+    "ceramic coating Cincinnati",
+    "paint correction Cincinnati",
+    "mobile car wash Cincinnati",
+    "Juan Cruz detailing Cincinnati",
   ],
   icons: {
     icon: [

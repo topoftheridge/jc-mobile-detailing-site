@@ -18,19 +18,13 @@
   animation: sparkle 0.6s ease-in-out;
 }
 
-/* [[COLORS]] — Replace hex values below with the client's brand colors.
-   primary      = main accent color (buttons, highlights, links)
-   primary-light = lighter tint of primary
-   primary-dark  = darker shade for hover states
-   dark/dark-light/dark-lighter = background layers (usually keep as black/near-black)
-*/
 @theme {
-  --color-primary: [[PRIMARY_COLOR]];       /* e.g. #3391d5 */
-  --color-primary-light: [[PRIMARY_LIGHT]]; /* e.g. #5baae0 */
-  --color-primary-dark: [[PRIMARY_DARK]];   /* e.g. #2272b5 */
-  --color-accent: [[PRIMARY_COLOR]];
-  --color-accent-light: [[PRIMARY_LIGHT]];
-  --color-accent-dark: [[PRIMARY_DARK]];
+  --color-primary: #e8a020;
+  --color-primary-light: #f0b840;
+  --color-primary-dark: #c07d10;
+  --color-accent: #e8a020;
+  --color-accent-light: #f0b840;
+  --color-accent-dark: #c07d10;
   --color-dark: #0a0a0a;
   --color-dark-light: #111111;
   --color-dark-lighter: #1a1a1a;

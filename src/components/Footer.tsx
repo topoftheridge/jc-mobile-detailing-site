@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           <div>
             <div className="mb-4">
-              <Image src="/logoheader.png" alt="JC Mobile Detailing" width={160} height={55} className="h-12 w-auto" />
+              <Image src="/jcmobilelogoheader.png" alt="JC Mobile Detailing" width={120} height={160} className="h-20 w-auto" />
             </div>
             <p className="text-sm mb-4">Top-rated mobile auto detailing in Cincinnati, OH. We bring showroom-quality results to your driveway — 87 five-star reviews and 1,300+ cars detailed.</p>
             <div className="space-y-2 text-sm">

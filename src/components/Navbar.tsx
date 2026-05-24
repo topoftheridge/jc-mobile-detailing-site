@@ -24,7 +24,7 @@ export default function Navbar() {
 
           {/* Desktop Nav */}
           <div className="hidden lg:flex items-center justify-end flex-1 ml-8">
-            <div className="flex items-center gap-10 mr-auto ml-6">
+            <div className="flex items-center justify-center gap-10 flex-1 mx-6">
               <Link href="/" className="text-white text-base hover:text-primary transition font-medium tracking-wide">Home</Link>
               <Link href="/about" className="text-white text-base hover:text-primary transition font-medium tracking-wide">About</Link>
               <div

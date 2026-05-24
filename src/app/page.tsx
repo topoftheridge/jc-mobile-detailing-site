@@ -113,7 +113,7 @@ export default function HomePage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <Link href="/services/interior-detailing" className="group relative rounded-xl overflow-hidden border border-white/5 hover:border-primary/50 transition min-h-[320px] flex flex-col justify-center">
-              <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/interiorcard1.jpg')" }} />
+              <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/jcmobiledetailinginteriorcard.png')" }} />
               <div className="absolute inset-0 bg-black/60" />
               <div className="relative p-8 flex flex-col items-start gap-3">
                 <h3 className="text-3xl lg:text-4xl font-bold text-white leading-tight">Interior Detailing</h3>

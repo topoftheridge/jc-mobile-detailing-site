@@ -12,7 +12,7 @@ export default function AboutPage() {
   return (
     <>
       <div className="relative overflow-hidden">
-        <Image src="/aboutcard1.jpg" alt="" fill className="object-cover object-center" priority />
+        <Image src="/jcmobiledetailingabouthero.png" alt="" fill className="object-cover object-center" priority />
         <div className="absolute inset-0 bg-black/65" />
         <div className="relative">
           <Hero title="JC Mobile Detailing" subtitle="Cincinnati's Trusted Mobile Detailing Service" showCTA={false} />

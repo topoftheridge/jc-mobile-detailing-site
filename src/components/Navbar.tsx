@@ -18,8 +18,8 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 bg-black/95 backdrop-blur border-b border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20 lg:h-24">
-          <Link href="/" className="flex items-center shrink-0">
-            <Image src="/jcmobilelogoheader.png" alt="JC Mobile Detailing" width={120} height={160} className="h-20 lg:h-24 w-auto" priority />
+          <Link href="/" className="flex items-center shrink-0 relative -my-4 lg:-my-6">
+            <Image src="/jcmobilelogoheader.png" alt="JC Mobile Detailing" width={160} height={200} className="h-28 lg:h-36 w-auto drop-shadow-lg" priority />
           </Link>
 
           {/* Desktop Nav */}
@@ -74,7 +74,11 @@ export default function Navbar() {
               <Link href="/contact" className="text-white text-base hover:text-primary transition font-medium tracking-wide">Contact</Link>
             </div>
 
-            <div className="flex items-center gap-3 shrink-0">
+            <div className="flex items-center gap-4 shrink-0">
+              <a href="tel:+15138675309" className="flex items-center gap-2 text-white hover:text-primary transition whitespace-nowrap">
+                <Phone className="w-5 h-5 text-primary" />
+                <span className="text-lg font-bold tracking-wide">(513) 867-5309</span>
+              </a>
               <Link href="/get-quote" className="bg-primary text-black px-5 py-2.5 rounded-lg font-semibold hover:bg-primary-dark transition shadow-sm text-sm whitespace-nowrap">
                 BOOK NOW
               </Link>
@@ -130,7 +134,11 @@ export default function Navbar() {
           </div>
         </div>
         <Link href="/contact" className="block py-3 font-medium text-lg text-white hover:text-primary transition border-b border-white/5" onClick={() => setMobileOpen(false)}>Contact</Link>
-        <div className="pt-4">
+        <div className="pt-4 space-y-3">
+          <a href="tel:+15138675309" className="flex items-center justify-center gap-2 text-white hover:text-primary transition py-3">
+            <Phone className="w-5 h-5 text-primary" />
+            <span className="text-lg font-bold tracking-wide">(513) 867-5309</span>
+          </a>
           <Link href="/get-quote" className="block text-center bg-primary text-black px-5 py-3 rounded-lg font-semibold hover:bg-primary-dark transition" onClick={() => setMobileOpen(false)}>BOOK NOW</Link>
         </div>
       </div>

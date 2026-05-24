@@ -75,9 +75,9 @@ export default function Navbar() {
             </div>
 
             <div className="flex items-center gap-4 shrink-0">
-              <a href="tel:+15138675309" className="flex items-center gap-2 text-white hover:text-primary transition whitespace-nowrap">
+              <a href="tel:+15134989137" className="flex items-center gap-2 text-white hover:text-primary transition whitespace-nowrap">
                 <Phone className="w-5 h-5 text-primary" />
-                <span className="text-lg font-bold tracking-wide">(513) 867-5309</span>
+                <span className="text-lg font-bold tracking-wide">(513) 498-9137</span>
               </a>
               <Link href="/get-quote" className="bg-primary text-black px-5 py-2.5 rounded-lg font-semibold hover:bg-primary-dark transition shadow-sm text-sm whitespace-nowrap">
                 BOOK NOW
@@ -135,9 +135,9 @@ export default function Navbar() {
         </div>
         <Link href="/contact" className="block py-3 font-medium text-lg text-white hover:text-primary transition border-b border-white/5" onClick={() => setMobileOpen(false)}>Contact</Link>
         <div className="pt-4 space-y-3">
-          <a href="tel:+15138675309" className="flex items-center justify-center gap-2 text-white hover:text-primary transition py-3">
+          <a href="tel:+15134989137" className="flex items-center justify-center gap-2 text-white hover:text-primary transition py-3">
             <Phone className="w-5 h-5 text-primary" />
-            <span className="text-lg font-bold tracking-wide">(513) 867-5309</span>
+            <span className="text-lg font-bold tracking-wide">(513) 498-9137</span>
           </a>
           <Link href="/get-quote" className="block text-center bg-primary text-black px-5 py-3 rounded-lg font-semibold hover:bg-primary-dark transition" onClick={() => setMobileOpen(false)}>BOOK NOW</Link>
         </div>

@@ -17,7 +17,7 @@ export default function Footer() {
               <div className="flex items-center gap-2"><MapPin className="w-4 h-4 text-primary shrink-0" /> Cincinnati, OH &amp; Surrounding Areas</div>
               <div className="flex items-center gap-2"><Clock className="w-4 h-4 text-primary shrink-0" /> Mon–Sun: By Appointment</div>
               <div className="flex items-center gap-2"><Phone className="w-4 h-4 text-primary shrink-0" />
-                <a href="tel:+15138675309" className="hover:text-primary transition">Call to Book</a>
+                <a href="tel:+15134989137" className="hover:text-primary transition">Call to Book</a>
               </div>
               <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-primary shrink-0" />
                 <a href="mailto:jcmobiledetailing@gmail.com" className="hover:text-primary transition">jcmobiledetailing@gmail.com</a>

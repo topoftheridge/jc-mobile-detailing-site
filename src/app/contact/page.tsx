@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Mail, MapPin, Clock } from "lucide-react";
+import { Mail, MapPin, Clock, Phone } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Contact | JC Mobile Detailing — Cincinnati, OH",
@@ -21,6 +21,7 @@ export default function ContactPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="space-y-4">
             {[
+              { icon: <Phone className="w-6 h-6" />, label: "Phone", content: <a href="tel:+15134989137" className="text-white hover:text-primary transition text-lg font-bold">(513) 498-9137</a> },
               { icon: <MapPin className="w-6 h-6" />, label: "Service Area", content: <span className="text-white">Cincinnati, OH &amp; Greater Cincinnati Area (incl. Northern Kentucky)</span> },
               { icon: <Clock className="w-6 h-6" />, label: "Hours", content: <span className="text-white">Monday – Sunday: By Appointment</span> },
               { icon: <Mail className="w-6 h-6" />, label: "Email", content: <a href="mailto:jcmobiledetailing@gmail.com" className="text-white hover:text-primary transition">jcmobiledetailing@gmail.com</a> },

@@ -89,7 +89,7 @@ export default function GetQuotePage() {
               Thanks for reaching out. A member of our team will contact you shortly with your personalized quote.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a href="tel:+15138675309" className="inline-flex items-center justify-center bg-primary text-white font-bold px-6 py-3 rounded-lg hover:bg-primary-dark transition">
+              <a href="tel:+15134989137" className="inline-flex items-center justify-center bg-primary text-white font-bold px-6 py-3 rounded-lg hover:bg-primary-dark transition">
                 Call Call to Book
               </a>
               <Link href="/" className="inline-flex items-center justify-center bg-white/10 text-white font-bold px-6 py-3 rounded-lg hover:bg-white/20 transition border border-white/20">
@@ -375,7 +375,7 @@ function Header() {
           </Link>
           <span className="hidden sm:block text-gray-500 text-xs border-l border-white/10 pl-3">Mobile Detailing in Cincinnati, OH</span>
         </div>
-        <a href="tel:+15138675309" className="text-gray-400 hover:text-primary transition text-sm hidden sm:block">
+        <a href="tel:+15134989137" className="text-gray-400 hover:text-primary transition text-sm hidden sm:block">
           Call to Book
         </a>
       </div>

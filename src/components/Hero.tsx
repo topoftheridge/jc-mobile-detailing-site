@@ -24,7 +24,7 @@ export default function Hero({ title, subtitle, showCTA = true }: HeroProps) {
               <Link href="/get-quote" className="inline-flex items-center justify-center bg-primary text-black font-bold px-8 py-4 rounded-lg hover:bg-primary-dark transition shadow-lg text-lg">
                 BOOK YOUR DETAIL
               </Link>
-              <a href="tel:+15138675309" className="inline-flex items-center justify-center bg-white/10 backdrop-blur text-white font-bold px-8 py-4 rounded-lg hover:bg-white/20 transition border border-white/20 text-lg">
+              <a href="tel:+15134989137" className="inline-flex items-center justify-center bg-white/10 backdrop-blur text-white font-bold px-8 py-4 rounded-lg hover:bg-white/20 transition border border-white/20 text-lg">
                 CALL NOW
               </a>
             </div>
